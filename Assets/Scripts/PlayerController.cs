@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     private float applySpeed;
 
     [SerializeField]
-    private float jumpForce = 3;
+    private float jumpForce;
 
     //상태 변수
     private bool isRun = false;
